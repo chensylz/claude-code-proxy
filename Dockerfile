@@ -1,4 +1,4 @@
-FROM ghcr.io/astral-sh/uv:bookworm-slim
+FROM registry.cn-chengdu.aliyuncs.com/chensyf/astral-sh-uv:bookworm-slim
 
 # Copy the project into the image
 ADD . /app
